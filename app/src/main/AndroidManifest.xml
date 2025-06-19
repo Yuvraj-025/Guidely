@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ozturksahinyetisir.travelguideapp">
+    package="com.yuvraj.travelguideapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,10 +17,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".view.DetailActivity"
+            android:name="com.yuvraj.travelguideapp.view.DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".view.MainActivity"
+            android:name="com.yuvraj.travelguideapp.view.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

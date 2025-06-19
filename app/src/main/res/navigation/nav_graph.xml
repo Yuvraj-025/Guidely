@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.home.HomeFragment"
+        android:name="com.yuvraj.travelguideapp.view.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_guideFragment"
@@ -23,11 +23,11 @@
     </fragment>
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.MainActivity"
+        android:name="com.yuvraj.travelguideapp.view.MainActivity"
         android:label="MainActivity" />
     <fragment
         android:id="@+id/guideFragment"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.guide.GuideFragment"
+        android:name="com.yuvraj.travelguideapp.view.guide.GuideFragment"
         android:label="GuideFragment" >
         <action
             android:id="@+id/action_guideFragment_to_homeFragment"
@@ -38,7 +38,7 @@
     </fragment>
     <fragment
         android:id="@+id/tripFragment"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.Trip.TripFragment"
+        android:name="com.yuvraj.travelguideapp.view.Trip.TripFragment"
         android:label="TripFragment" >
         <action
             android:id="@+id/action_tripFragment_to_homeFragment"
@@ -52,7 +52,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.Search.SearchFragment"
+        android:name="com.yuvraj.travelguideapp.view.Search.SearchFragment"
         android:label="SearchFragment" >
         <action
             android:id="@+id/action_searchFragment_to_homeFragment"
@@ -63,15 +63,15 @@
     </fragment>
     <activity
         android:id="@+id/detailActivity"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.DetailActivity"
+        android:name="com.yuvraj.travelguideapp.view.DetailActivity"
         android:label="DetailActivity" />
     <fragment
         android:id="@+id/newTripFragment"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.Trip.NewTripFragment"
+        android:name="com.yuvraj.travelguideapp.view.Trip.NewTripFragment"
         android:label="NewTripFragment" />
     <fragment
         android:id="@+id/tripListFragment"
-        android:name="com.ozturksahinyetisir.travelguideapp.view.Trip.TripListFragment"
+        android:name="com.yuvraj.travelguideapp.view.Trip.TripListFragment"
         android:label="TripListFragment" >
         <action
             android:id="@+id/action_tripListFragment_to_newTripFragment"
