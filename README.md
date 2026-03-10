@@ -31,7 +31,7 @@ The project focuses on:
 
 | Home Screen | Search Screen | Search Results Screen |
 |-------------|---------------|-----------------------|
-| ![](screenshot/1.png) | ![](screenshot/2.png) | ![](screenshot/3.png) |
+| ![](screenshot/1.jpg) | ![](screenshot/2.jpg) | ![](screenshot/3.jpg) |
 
 
 # Architecture
